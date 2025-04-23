@@ -2,6 +2,17 @@ import streamlit as st
 
 st.set_page_config(page_title = "🌱 Growth Mindset Challenge", layout= "centered")
 
+st.markdown("""
+<style>
+            .stApp{
+            background-image: linear-gradient(to right, #f9f9f9, #e0f7fa);
+            color: #333;
+            font-family: 'Segoe UI', sans-serif;
+               h1, h2 {
+        color: #2e7d32;
+    }
+    </style>}""", unsafe_allow_html=True)
+
 # title and welcome
 st.title("🌱 Growth Mindset Challenge✨")
 st.header("Welcome to Your Growth Journey! 🚀")
@@ -41,3 +52,4 @@ else:
 st.write("- - -")
 st.write("🌍 *Growth is a journey, not a destination. Keep believing in yourself — you’re doing great!*")
 st.write("**✨ Created with ❤️ by Sanoober**") 
+
